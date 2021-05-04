@@ -1,0 +1,41 @@
+.font {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.reduis {
+	border-radius: 8px;
+}
+.b-reduis {
+	border: 3px solid black;
+	border-radius: 8px;
+}
+.margin {
+	margin-top: 10px;
+}
+.image {
+	width: 500px;
+	height: 500px;
+	margin: 70px;
+}
+
+/*
+Tablettes
+*/
+
+@media (min-width: 501px) and (max-width: 1024px) {
+	.image {
+		width: 300px;
+		height: 300px;
+		margin: 50px;
+	}
+}
+
+/*
+téléphone
+*/
+@media (max-width: 500px) {
+	.image {
+		width: 150px;
+		height: 150px;
+		margin: 40px;
+	}
+}

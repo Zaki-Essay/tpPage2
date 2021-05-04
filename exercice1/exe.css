@@ -1,0 +1,158 @@
+.absolu {
+	width: 80%;
+	height: 100%;
+	margin: auto;
+	background-color: #e2bcb7;
+}
+
+.relative {
+	width: 80%;
+	height: 100%;
+	margin: auto;
+	background-color: #e2bcb7;
+}
+
+.fig1,
+.fig2,
+.fig3,
+.fig4 {
+	width: 500px;
+	height: 300px;
+	background-color: #9e9d89;
+	position: relative;
+	border: 3px solid #5b8a72;
+	margin: auto;
+	margin-bottom: 10px;
+}
+
+.red {
+	background-color: #e84545;
+}
+
+.blue {
+	background-color: #2b2e4a;
+}
+.green {
+	background-color: #96bb7c;
+}
+
+.size {
+	width: 100px;
+	height: 100px;
+}
+
+.fig1 .red {
+	position: absolute;
+	left: 200px;
+}
+.fig1 .blue {
+	position: absolute;
+	left: 200px;
+	top: 100px;
+}
+.fig1 .green {
+	position: absolute;
+	left: 200px;
+	top: 200px;
+}
+
+.fig2 .red {
+	position: absolute;
+}
+.fig2 .blue {
+	position: absolute;
+	left: 100px;
+	top: 100PX;
+}
+.fig2 .green {
+	position: absolute;
+	left: 200px;
+	top: 200px;
+}
+
+.fig3 .red {
+	width: 200px;
+}
+
+.fig3 .green {
+	position: absolute;
+	top: 100PX;
+	left: 100px;
+}
+
+.fig4 .blue {
+	position: absolute;
+	left: 100px;
+	top: 0px;
+}
+
+.h2 {
+	background-color: #e2bcb7;
+	padding: 5px;
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.fig5,
+.fig6,
+.fig7,
+.fig8 {
+	width: 500px;
+	height: 300px;
+	background-color: #9e9d89;
+	margin: auto;
+	margin-bottom: 10px;
+	border: 3px solid #5b8a72;
+}
+
+.fig5 .red {
+	position: relative;
+	left: 200px;
+}
+.fig5 .blue {
+	position: relative;
+	left: 200px;
+}
+.fig5 .green {
+	position: relative;
+	left: 200px;
+}
+
+.fig6 .red {
+	position: relative;
+}
+.fig6 .blue {
+	position: relative;
+	left: 100px;
+}
+.fig6 .green {
+	position: relative;
+	left: 200px;
+}
+
+.fig7 .red {
+	position: relative;
+	width: 200PX;
+}
+.fig7 .blue {
+	position: relative;
+}
+.fig7 .green {
+	position: relative;
+	left: 100px;
+	bottom: 100px;
+}
+
+.fig8 .red {
+	position: relative;
+}
+.fig8 .blue {
+	position: relative;
+	left: 100px;
+	bottom: 100px;
+}
+.fig8 .green {
+	position: relative;
+
+	bottom: 100px;
+}
